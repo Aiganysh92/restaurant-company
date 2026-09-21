@@ -1,5 +1,5 @@
+# Weekend CI Homework
 name: Restaurant Company CI
-
 on:
   pull_request:
     branches:
