@@ -1,4 +1,4 @@
-build::;;
+build:
   name: Build
   runs-on: ubuntu-latest
 
