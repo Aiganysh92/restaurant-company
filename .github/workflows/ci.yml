@@ -221,9 +221,9 @@ jobs:
         run: |
           docker tag \
             restaurant-company:${{ github.sha }} \
-            644299173848.dkr.ecr.us-east-1.amazonaws.com/restaurant-company:latest
+           644299173848.dkr.ecr.us-east-1.amazonaws.com/restaurant-company:latest
 
       - name: Push latest to ECR
         run: |
           docker push \
-            644299173848.dkr.ecr.us-east-1.amazonaws.com/restaurant-company:latest
+            644299173848.dkr.ecr.us-east-1.amazonaws.com/restaurant-company:latesit
